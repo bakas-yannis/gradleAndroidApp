@@ -38,4 +38,4 @@ proguard/
 *.iws
 .idea/
 
-.swp
+*.swp
