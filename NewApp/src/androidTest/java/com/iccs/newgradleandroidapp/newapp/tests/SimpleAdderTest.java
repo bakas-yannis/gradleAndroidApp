@@ -20,4 +20,10 @@ public class SimpleAdderTest extends TestCase{
         int result = SimpleAdder.simpleAdd(1,1);
         assertEquals(2,result);
     }
+
+    public void testSimpleAdder2() throws Exception {
+
+        int result = SimpleAdder.simpleAdd(1,1);
+        assertEquals(2,result);
+    }
 }
