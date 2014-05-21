@@ -21,7 +21,7 @@ public class SimpleAdderTest extends TestCase{
         assertEquals(2,result);
     }
 
-    public void testSimpleAdder2() throws Exception {
+    public void testSimpleAdder3() throws Exception {
 
         int result = SimpleAdder.simpleAdd(1,1);
         assertEquals(2,result);
