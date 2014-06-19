@@ -9,7 +9,7 @@ buildscript {
 apply plugin: 'android'
 
 repositories {
-        mavenCentral()
+    mavenCentral()
 }
 
 android {
@@ -34,8 +34,15 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:19.+'
+
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
     androidTestCompile 'com.jayway.android.robotium:robotium-solo:5.0.1'
+    androidTestCompile 'com.android.support:appcompat-v7:19.+'
+
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.mcxiaoke.volley:library:1.0.4'
+    compile 'com.google.android.gms:play-services:4.4.52'
+    compile 'com.android.support:appcompat-v7:19.+'
 }
